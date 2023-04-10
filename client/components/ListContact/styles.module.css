@@ -1,0 +1,22 @@
+.containerListContact{
+    width: 40%;
+    margin: 20px auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.containerListContact .contactInfo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.containerListContact .contactInfo .containerBtn{
+    column-gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.msgWelcome{
+    width: max-content;
+    margin:auto;
+}
